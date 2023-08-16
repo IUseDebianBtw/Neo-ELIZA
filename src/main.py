@@ -1,8 +1,9 @@
 import openai
 import sys
 
-# Initialize OpenAI API
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+print(open('src/ascii_art.txt').read())
+
+openai.api_key = input("Please enter your OpenAI API key: ")
 
 def neo_eliza():
     print("Neo-Eliza: Hello! I'm Neo-Eliza. Type 'exit' to end the chat.")
