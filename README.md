@@ -1,6 +1,6 @@
 # Neo-ELIZA
 
-![Neo-Eliza](Neo-ELIZA/Images/Neo-eliza.png)
+![Neo-Eliza](Images/Neo-eliza.png)
 
 Neo-ELIZA is eliza with modern language model
 
