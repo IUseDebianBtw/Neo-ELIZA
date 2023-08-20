@@ -19,8 +19,6 @@ Man pages
 
 Package
 
-invalid api exiting
-
 -----------------------
 ### License 
 
