@@ -8,7 +8,7 @@ def get_api_key():
         sys.exit(0)
         
     try:
-        print(openai.Model.list())
+        openai.Model.list()
     except openai.error.OpenAIError as e:
         if 'authentication' in str(e).lower():
             print("Error: Invalid API key. Please enter a valid key.")
